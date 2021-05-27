@@ -10,14 +10,14 @@
 <meta property="og:image" content="http://reservia.com/images/logo/Reservia@3x.png"/>
 <meta property="og:description" content="Trouvez votre hébergement pour vos vacances"/>
         <link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet"> <!--load all styles -->
-        <link href="css/desktop.css" rel="stylesheet">
+        <link href="./css/desktop.css" rel="stylesheet" type="text/css">
         <title>Reservia</title>
     </head>
 
     <body>
         <!-- HEADER -->
         <header><img src="images/logo/Reservia@3x.png" alt="Reservia" />
-        <nav><ul><li>Hébergements</li><li>Activités</li><li>S'inscrire</li></ul></nav></header>
+        <nav class="menu_site"><ul><li>Hébergements</li><li>Activités</li><li>S'inscrire</li></ul></nav></header>
 
 
         <!-- SECTION 1 : Recherche -->
@@ -26,13 +26,13 @@
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre ville ou en pleine nature</p>
         </div>
-        <form>
+        <form class="form_recherche">
         <i class="fas fa-map-marker-alt"></i>
             <input  type="text" value="Marseille, France">
             <button type="button" onclick="">Rechercher</button>
 
     </form>
-        <div><p>Filtres</p>
+        <div class="filtres_recherche"><p>Filtres</p>
         <ul>
             <li>
                 <i class="fas fa-money-bill-wave"></i><p>Economique</p>
@@ -64,59 +64,71 @@
     <section class="Hebergement">
 
         <!-- Liste hébergement-->
-        <section>
+        <section class="Liste_hebergement">
             <h2>Hébergements à Marseille</h2>
             <div>
                 <div>
                     <figure>
+ <a href="">
                         <img>
                         <figcaption>
                             <h3>Auberge de la Cannebière</h3>
                             <p>Nuit à partir de 25€</p>
                             <span>★★★★☆</span>
                         </figcaption>
+                    </a>
                     </figure>
                     <figure>
+                        <a href="">
                         <img>
                         <figcaption>
                             <h3>Hôtel du port</h3>
                             <p>Nuit à partir de 52€</p>
                             <span>★★★★★</span>
                         </figcaption>
+                        </a>
                     </figure>
                     <figure>
+                        <a href="">
                         <img>
                         <figcaption>
                             <h3>Hôtel Les mouettes</h3>
                             <p>Nuit à partir de 76€</p>
                             <span>★★★★☆</span>
                         </figcaption>
+                        </a>
                     </figure>
                 </div>
                 <div>
                     <figure>
+                        <a href="">
                         <img>
                         <figcaption>
                             <h3>Hôtel de la mer</h3>
                             <p>Nuit à partir de 46€</p>
                             <span>★★★☆☆</span>
                         </figcaption>
+                        </a>
                     </figure>
                     <figure>
+                        <a href="">
                         <img>
                         <figcaption>
                             <h3>Auberge le panier</h3>
                             <p>Nuit à partir de 23€</p>
                             <span>★★★★☆</span>
                         </figcaption>
+                        </a>
                     </figure>
                     <figure>
+                        <a href="">
                         <img>
                         <figcaption>
                             <h3>Hôtel chez Amina</h3>
                             <p>Nuit à partir de 96€</p>
                             <span>★★★★★</span>
                         </figcaption>
+                        </a>
                     </figure>
                 </div>
             </div>
@@ -127,35 +139,41 @@
 
 
 
-        <section>
+        <section class="Hebergement_populaire">
             <div>
                 <h2>Les plus populaires</h2>
                 <i class="fas fa-chart-line"></i>
             </div>
             <div>
                 <figure>
+                    <a href="">
                     <img>
                     <figcaption>
                         <h3>Hôtel Le soleil du matin</h3>
                         <p>Nuit à partir de 128€</p>
                         <span>★★★★★</span>
                     </figcaption>
+                    </a>
                 </figure>
                 <figure>
+                    <a href="">
                     <img>
                     <figcaption>
                         <h3>Au coeur de l'eau chambres d'hôtes</h3>
                         <p>Nuit à partir de 71€</p>
                         <span>★★★★☆</span>
                     </figcaption>
+                    </a>
                 </figure>
                 <figure>
+                    <a href="">
                     <img>
                     <figcaption>
                         <h3>Hôtel tout bleu et Blanc</h3>
                         <p>Nuit à partir de 68€</p>
                         <span>★★★★☆</span>
                     </figcaption>
+                    </a>
                 </figure>
             </div>
         </section>
