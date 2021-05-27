@@ -2,14 +2,26 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <!-- Open Graph data -->
+
+<meta property="og:title" content="Reservia"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://www.reservia.com/"/> <!-- en attendant le vraie URL-->
+<meta property="og:image" content="http://reservia.com/images/logo/Reservia@3x.png"/>
+<meta property="og:description" content="Trouvez votre hébergement pour vos vacances"/>
         <link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+        <link href="css/desktop.css" rel="stylesheet">
         <title>Reservia</title>
     </head>
 
     <body>
+        <!-- HEADER -->
         <header><img src="images/logo/Reservia@3x.png" alt="Reservia" />
-        <ul><li>Hébergements</li><li>Activités</li><li>S'inscrire</li></ul></header>
-    <section>
+        <nav><ul><li>Hébergements</li><li>Activités</li><li>S'inscrire</li></ul></nav></header>
+
+
+        <!-- SECTION 1 : Recherche -->
+    <section class="Recherche">
         <div>
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre ville ou en pleine nature</p>
@@ -47,7 +59,11 @@
 
 
 
-    <section>
+
+    <!-- SECTION 2 : Hébergements-->
+    <section class="Hebergement">
+
+        <!-- Liste hébergement-->
         <section>
             <h2>Hébergements à Marseille</h2>
             <div>
@@ -106,6 +122,11 @@
             </div>
             <p>Afficher plus</p>
         </section>
+
+
+
+
+
         <section>
             <div>
                 <h2>Les plus populaires</h2>
@@ -141,7 +162,10 @@
     </section>
 
 
-    <section>
+
+
+    <!-- SECTION 3 : Activités-->
+    <section class="Activites">
         <h2>Activités à Marseille</h2>
         <div>
             <div>
@@ -179,6 +203,9 @@
         </div>
     </section>
 
+
+
+    <!-- FOOTER -->
     <footer>
         <section>
             <p>A propos</p>
