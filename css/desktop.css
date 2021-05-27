@@ -10,8 +10,15 @@ header {
 
 }
 
-.menu_site {
+.titre_site {
+    flex: 2;
+}
+
+
+
+.menu_site>ul>li {
     flex-wrap: nowrap;
+    display: inline;
 
 }
 
