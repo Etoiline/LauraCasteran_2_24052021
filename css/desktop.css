@@ -3,6 +3,8 @@
 
 html{
     font-family: 'Raleway', sans-serif;
+    display : flex;
+    flex-direction: column;
 }
 
 header {
@@ -13,10 +15,24 @@ header {
 }
 
 .titre_site {
-    flex: 2;
+    width:66%;
+}
+
+.menu_site{
+    flex : 1;
+}
+
+.menu_site>ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style:none; /*enleve les puces*/
 }
 
 
+.menu_site>ul>li>a{
+    text-decoration: none;
+}
 
 .menu_site>a:hover {
     text-decoration: overline;
@@ -31,21 +47,18 @@ section{
 }
 
 .Recherche{
-    background-color: aquamarine;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.filtres_recherche {
+.filtres_recherche>ul {
+    display: flex;
     flex-direction: row;
-
-
 
 }
 
 .Hebergement {
-    background-color: coral;
 
     flex-wrap: nowrap;
 }
@@ -62,13 +75,42 @@ section{
 }
 
 .Activites{
+
+}
+
+
+footer{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+/*CSS TEMP A SUPPRIMER*/
+
+.Recherche{
+    background-color: aquamarine;
+
+}
+
+
+.Hebergement {
+    background-color: coral;
+
+}
+
+
+.Activites{
     background-color: greenyellow;
 }
 
 
 footer{
     background-color: indigo;
-    display:flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
 }
+
