@@ -81,6 +81,16 @@ section{
     flex-wrap: wrap;
 }
 
+.form_recherche {
+    background-color: grey;
+
+
+}
+
+.fa-map-marker-alt{
+    background-color: crimson;
+}
+
 html>h2{
     font-weight:bold;
 }
@@ -124,6 +134,7 @@ footer{
 
 
 /*CSS TEMP A SUPPRIMER*/
+
 
 .Recherche{
     background-color: aquamarine;
