@@ -58,7 +58,8 @@ header {
 }
 
 .menu_site>ul>li>a.inscription{
-    color : blue;
+    color : #0065FC;
+    font-weight: bold;
 }
 
 
@@ -79,6 +80,13 @@ section{
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+html>h2{
+    font-weight:bold;
+}
+
+
+
 
 .filtres_recherche>ul {
     display: flex;
