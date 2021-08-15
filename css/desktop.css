@@ -126,9 +126,28 @@ html>h2{
 
 
 footer{
+    background-color: #F2F2F2;
     display:flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+}
+
+footer>section{
+    flex-direction: column;
+}
+
+footer>section>p{
+    font-weight: bold;
+}
+
+footer>section>ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
+
+footer>section>ul>li {
+    margin-bottom:15px;/* à adapter */
 }
 
 
@@ -152,9 +171,5 @@ footer{
     background-color: greenyellow;
 }
 
-
-footer{
-    background-color: indigo;
-}
 
 }
