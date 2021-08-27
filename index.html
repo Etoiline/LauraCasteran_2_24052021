@@ -24,11 +24,9 @@
         <img src="images/logo/Reservia@3x.png" alt="Reservia" />
     </div>
         <nav class="menu_site">
-            <ul>
-                <li><a href="#Hebergement">Hébergements</a></li>
-                <li><a href="#Activites">Activités</a></li>
-                <li><a class="inscription" href="#">S'inscrire</a></li>
-            </ul>
+            <a class="menu_item" href="#Hebergement">Hébergements</a>
+            <a class="menu_item" href="#Activites">Activités</a>
+            <a class="menu_item_inscription" href="#">S'inscrire</a>
         </nav>
     </header>
 
@@ -36,7 +34,7 @@
     <!-- SECTION 1 : Recherche -->
     <section class="Recherche">
         <div>
-            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
         </div>
         <form class="form_recherche">
@@ -46,30 +44,30 @@
 
         </form>
         <div class="filtres_recherche">
-            <p>Filtres</p>
-            <ul>
+            <h3>Filtres</h3>
+            <ul class="liste_filtres">
                 <li>
                     <i class="fas fa-money-bill-wave"></i>
-                    <p>Economique</p>
+                    <h3>Economique</h3>
                 </li>
                 <li>
                     <i class="fas fa-child"></i>
-                    <p>Familial</p>
+                    <h3>Familial</h3>
 
                 </li>
                 <li>
                     <i class="fas fa-heart"></i>
-                    <p>Romantique</p>
+                    <h3>Romantique</h3>
                 </li>
                 <li>
                     <i class="fas fa-dog"></i>
-                    <p>Animaux autorisés</p>
+                    <h3>Animaux autorisés</h3>
                 </li>
             </ul>
         </div>
 
-        <div>
-            <i class="fas fa-info-circle"></i>
+        <div class="texte_info">
+            <i class="fas fa-info"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
 
@@ -85,7 +83,7 @@
         <section class="Liste_hebergement">
             <h2>Hébergements à Marseille</h2>
             <div>
-                <div>
+                <div class="hebergement_ligne">
                     <figure>
                         <a href="">
                             <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
@@ -156,7 +154,7 @@
 
 
 
-
+        <!-- hébergements populaires-->
         <section class="Hebergement_populaire">
             <div>
                 <h2>Les plus populaires</h2>
@@ -201,16 +199,16 @@
 
 
     <!-- SECTION 3 : Activités-->
-    <section class="Activites" id="Activites">
+    <section class="Activites">
         <h2>Activités à Marseille</h2>
-        <div>
-            <div>
+        <div class="activites_liste">
+            <div class="activites_col_un">
                 <figure>
                     <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
                     <figcaption>Vieux Port</figcaption>
                 </figure>
             </div>
-            <div>
+            <div class="activites_col_deux">
                 <figure>
                     <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
                     <figcaption>Fort de Pomègues</figcaption>
@@ -220,13 +218,13 @@
                     <figcaption>Iles du Frioul</figcaption>
                 </figure>
             </div>
-            <div>
+            <div class="activites_col_un">
                 <figure>
                     <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
                     <figcaption>Parc National des Calanques</figcaption>
                 </figure>
             </div>
-            <div>
+            <div class="activites_col_deux">
                 <figure>
                     <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
                     <figcaption>Notre-Dame-de-la-Garde</figcaption>
