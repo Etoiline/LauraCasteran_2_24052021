@@ -205,15 +205,21 @@ header {
 .hebergement_vignette{
     display:flex;
     flex-wrap: wrap; /*autorise retour à la ligne*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hebergement_vignette a{
+    height :350px;
+    width:33%;
 }
 
 .hebergement_vignette figure{
-    height :300px;
-    width:30%;
     border : 4px solid white;
     background-color: white;
     border-radius: 20px;
     margin:10px;
+    height: 90%;
 }
 
 .hebergement_vignette img{
