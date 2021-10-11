@@ -5,36 +5,75 @@
 
 html{
     font-family: "Raleway", arial, sans-serif;
+    background-color: white;
 }
 
 .contenu_principal {
-    margin-left: 40px;
-    margin-right: 30px;
+    margin:0px;
 
 }
 
 
 /***** HEADER *****/
-header {
-    display:flex;
-    flex-wrap: wrap;
-}
-
-
-.titre_site {
-    width:75%;
-}
 
 .titre_site img {
-    max-width: 15%;
+    max-width:50%;
 }
+
+.menu_item_inscription {
+    width:30%;
+}
+
+
+.filtres_recherche{
+    margin-top: 15px;
+}
+
+
+.filtres_recherche ul {
+    margin:0;
+}
+
+
+
+
+/****** PARTIE ACTIVITE ******/
+
+.activites_colone_multi, .activites_colone_unique {
+    width:100%;
+}
+
+.grande_vignette, .petite_vignette{
+    width:98%;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.grande_vignette img {
+    height: 160px;
+}
+
+
+/****** FOOTER ******/
+
+footer{
+    flex-direction: column;
+}
+
+
+
+
+/*
 
 .menu_site{
     display: flex;
     flex:1;
     justify-content: space-between;
     align-items: center; /*centre les éléments verticalement*/
-}
+/*}
 
 .menu_item{
     text-decoration: none;
@@ -56,9 +95,9 @@ header {
     font-weight: bold;
     text-decoration:none;
 }
-
+*/
 /***** RECHERCHE *****/
-
+/*
 .form_recherche{
     display:flex;
 }
@@ -93,20 +132,18 @@ header {
     border:none;
 }
 
-
+*/
 /***** FILTRES *****/
 
-
+/*
 .filtres_recherche{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
 }
 
 
 .filtres_recherche ul {
     display: flex;
-    flex-wrap: wrap;
     list-style:none;
 }
 
@@ -132,7 +169,7 @@ header {
     background:#DEEBFF;
     border-radius: 50%;
     z-index: 2; /*fait passer lle fond au dessus de la bordure du texte*/
-}
+/*}
 
 .liste_filtres h3{
 
@@ -165,10 +202,10 @@ header {
     margin-right: 10px;
 }
 
-
+*/
 
 /****** PARTIE HEBERGEMENT ******/
-
+/*
 .Hebergement{
     display: flex;
     justify-content: space-between;
@@ -190,7 +227,7 @@ header {
 .Liste_hebergement{
     background-color: #F2F2F2;
     display: flex;
-    flex:1; /*le bloc occupe toute la largeur possible*/
+    flex:1; /*le bloc occupe toute la largeur possible*/ /*
     flex-direction: column;
     border-radius: 20px 20px 20px 20px; 
     margin-right: 10px;
@@ -207,7 +244,7 @@ header {
 
 .hebergement_vignette{
     display:flex;
-    flex-wrap: wrap; /*autorise retour à la ligne*/
+    flex-wrap: wrap; /*autorise retour à la ligne*/ /*
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -292,79 +329,16 @@ header {
     margin-left: 10px;
 }
 
-
-
-
-/****** PARTIE ACTIVITE ******/
-
-.Activites{
-    margin-bottom: 20px;
-}
-
-.Activites h2 {
-    margin-bottom: 30px;
-}
-
-.activites_liste{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-
-
-.activites_colone_multi, .activites_colone_unique {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width:23%;
-}
-
-
-.grande_vignette, .petite_vignette{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width:100%;
-    margin: 0;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px 1px black;
-}
-
-.grande_vignette img {
-    border-radius: 20px 20px 0 0;
-    width:100%;
-    height: 400px;
-    object-fit: cover;
-}
-
-.petite_vignette img{
-    border-radius: 20px 20px 0 0;
-    width:100%;
-    height: 160px;
-    object-fit: cover;
-}
-
-.activites_liste a {
-    color:black;
-    text-decoration: none;
-}
-
-.activites_liste h3{
-    margin-top:10px;
-    margin-left: 10px;
-}
+*/
 
 
 
 /****** FOOTER ******/
-
+/*
 footer{
     background-color: #F2F2F2;
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
     margin:0px;
 }
@@ -390,23 +364,28 @@ footer ul {
 }
 
 footer li {
-    margin-bottom:15px;/* à adapter */
+    margin-bottom:15px;
 }
-
+*/
 
 
 /*CSS TEMP A SUPPRIMER*/
-/*
+
+
 .titre_site{
     background-color: crimson;
 }
 .menu_site{
     background-color:teal;
 }
+
+/*
+
 .Recherche{
     background-color: aquamarine;
 
 }
+
 .Hebergement {
     background-color: coral;
 
