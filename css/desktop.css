@@ -13,6 +13,10 @@ html{
 
 }
 
+section {
+    margin-bottom: 20px;
+}
+
 
 /***** HEADER *****/
 header {
@@ -22,7 +26,7 @@ header {
 
 
 .titre_site {
-    width:75%;
+    width:70%;
 }
 
 .titre_site img {
@@ -42,6 +46,8 @@ header {
     color: black;
     display: flex;
     align-items: center;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .menu_item:hover {
@@ -55,6 +61,8 @@ header {
     color : #0065FC;
     font-weight: bold;
     text-decoration:none;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 /***** RECHERCHE *****/
@@ -62,7 +70,7 @@ header {
 .form_recherche{
     display:flex;
 }
-.form_recherche i{
+.form_recherche>i{
     background:#F2F2F2;
     border-radius: 10px 0 0 10px;
     width: 50px;
@@ -93,6 +101,10 @@ header {
     border:none;
 }
 
+.loupe {
+    display:none;
+}
+
 
 /***** FILTRES *****/
 
@@ -117,8 +129,7 @@ header {
 }
 
 .filtres_recherche li:hover{
-    cursor:not-allowed;
-    color:red;
+    color:#0065FC;
 
 }
 
@@ -171,6 +182,7 @@ header {
 
 .Hebergement{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -196,6 +208,10 @@ header {
     margin-right: 10px;
 }
 
+.Liste_hebergement>p {
+    margin-left: 30px;
+    font-weight: bold;
+}
 
 .etoiles{
     color : #0065FC;
@@ -213,7 +229,7 @@ header {
 }
 
 .hebergement_vignette a{
-    height :350px;
+    height :330px;
     width:33%;
 }
 
@@ -249,6 +265,7 @@ header {
 .hebergement_populaire_titre{
     display:flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .hebergement_populaire_titre i {
@@ -311,7 +328,11 @@ header {
     justify-content: space-between;
 }
 
-
+.activites_liste figcaption {
+    display: flex;
+    align-items: center;
+    flex:1;
+}
 
 .activites_colone_multi, .activites_colone_unique {
     display: flex;
@@ -321,6 +342,13 @@ header {
     width:23%;
 }
 
+.activites_colone_unique a {
+    height:100%;
+}
+
+.grande_vignette {
+    height:100%;
+}
 
 .grande_vignette, .petite_vignette{
     display: flex;
@@ -330,8 +358,10 @@ header {
     margin: 0;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 1px black;
+    box-shadow: 0px 0px 10px 1px #F2F2F2;
+
 }
+
 
 .grande_vignette img {
     border-radius: 20px 20px 0 0;
@@ -353,7 +383,6 @@ header {
 }
 
 .activites_liste h3{
-    margin-top:10px;
     margin-left: 10px;
 }
 
@@ -392,6 +421,8 @@ footer ul {
 footer li {
     margin-bottom:15px;/* à adapter */
 }
+
+
 
 
 

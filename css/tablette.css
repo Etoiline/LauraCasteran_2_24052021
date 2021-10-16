@@ -1,0 +1,57 @@
+html{
+    background-color: white;
+    font-size: 0.8rem;
+}
+
+.contenu_principal{
+    margin-left : 20px;
+    margin-right: 20px;
+}
+
+.titre_site {
+    width:100%;
+}
+
+.menu_site{
+    width:100%;
+}
+
+.form_recherche{
+    margin-bottom: 20px;
+}
+
+
+.filtres_recherche ul {
+    padding-inline-start: 10px;
+}
+
+
+.Hebergement_populaire{
+    order : 1; /*changer l'ordre deux deux blocs*/
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.Liste_hebergement {
+    order:2; /*changer l'ordre deux deux blocs*/
+    width:100%;
+}
+
+.hebergement_populaire_vignette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:100%;
+}
+
+.hebergement_populaire_vignette a{
+    width:48%;
+}
+
+.hebergement_populaire_vignette figure{
+    height: 180px;
+}
+
+.hebergement_vignette a{
+    height:250px;
+}

@@ -10,10 +10,12 @@
     <meta property="og:url" content="http://www.reservia.com/" /> <!-- en attendant la vraie URL-->
     <meta property="og:image" content="http://reservia.com/images/logo/Reservia@3x.png" />
     <meta property="og:description" content="Trouvez votre hébergement pour vos vacances" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
     <!--load all styles -->
-    <link href="./css/desktop.css" rel="stylesheet" type="text/css">
-    <link href="./css/mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width: 768px)">
+    <link href="./css/desktop.css" rel="stylesheet" type="text/css" >
+    <link href="./css/mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width: 767px)">
+    <link href="./css/tablette.css" rel="stylesheet" type="text/css" media="screen and (min-width:768px) and (max-width: 991px)">
     <style>@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');</style>
     <title>Reservia</title>
 </head>
@@ -42,7 +44,10 @@
             <form class="form_recherche">
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="text" value="Marseille, France">
-                <button type="button" onclick="">Rechercher</button>
+                <button type="button" onclick="">
+                    <span class="rechercher">Rechercher</span>
+                    <span class="loupe"><i class="fas fa-search"></i></span>
+                </button>
 
             </form>
             <div class="filtres_recherche">
